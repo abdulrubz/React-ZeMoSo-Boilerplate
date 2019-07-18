@@ -1,4 +1,4 @@
-#React webpack MUI Starter kit
+# React webpack MUI Starter kit
 
 * Basic React Redux MUI theming and webpack4 config boilerplate in branch master
 * Storybook boiler plate in branch storybook
@@ -25,6 +25,5 @@ Follow Airbnb's [style guide](https://github.com/airbnb/javascript/tree/master/r
 * React [docs](https://reactjs.org/docs/hello-world.html).
 * Redux [guide](https://react-redux.js.org/introduction/basic-tutorial).
 * Find all the ui widgets you need [here](https://material-ui.com/getting-started/installation/).
-* Refer (here)[https://material-ui.com/styles/basics/#material-ui-styles] for theming and styling components
-* Go (here)[https://reactpatterns.com/] to find design patterns to be followed in react.
-
+* Refer [here](https://material-ui.com/styles/basics/#material-ui-styles) for theming and styling components
+* Go [here](https://reactpatterns.com/) to find design patterns to be followed in react.
