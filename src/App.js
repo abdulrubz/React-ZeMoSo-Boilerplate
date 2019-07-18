@@ -1,14 +1,19 @@
-import React from "react";
+import React, {Fragment} from "react";
 import { ThemeProvider } from '@material-ui/styles';
 import theme from './utils/theme';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 const App = props => {
   return (
-    <ThemeProvider theme={theme}>
-    <div>
-      ZeMoSo React Starter
-    </div>
-    </ThemeProvider>
+    <React.StrictMode>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Fragment>
+          ZeMoSo React Starter
+        </Fragment>
+      </ThemeProvider>
+    </React.StrictMode>
+
   );
 };
 
